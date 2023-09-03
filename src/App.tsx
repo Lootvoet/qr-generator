@@ -4,15 +4,15 @@ import QRCode, { QRStyle } from './components/QRCode';
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Custom QR Code Generator</h1>
+      <h1>Custom QR Code Generatxor</h1>
       <QRCode
         value="https://www.easyserve.be"
-        size={300}
-        bgColor="#FFFFFF"
-        fgColor="#000000"
+        size={600}
+        backgroundColor="#FFFFFF"
+        foregroundColor="#0F3D9C"
         style={QRStyle.Rounded}
-        centerImageSrc="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png"
-        centerImageSize={90}
+        imageSource="https://imageupload.io/ib/pm8dikxeoNHptD0_1693744010.png"
+        imageWidth={350}
       />
     </div>
   );

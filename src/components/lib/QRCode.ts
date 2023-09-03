@@ -77,7 +77,7 @@ class QRCode {
       this.modules[row] = new Array(this.moduleCount);
 
       for (let col = 0; col < this.moduleCount; col++) {
-        this.modules[row][col] = null;//(col + row) % 3;
+        this.modules[row][col] = null;
       }
     }
 
